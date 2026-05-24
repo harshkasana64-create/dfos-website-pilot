@@ -3,13 +3,13 @@ import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 
 const sans = Inter({
-  variable: "--font-sans",
+  variable: "--font-inter",
   subsets: ["latin"],
   display: "swap",
 });
 
 const heading = Outfit({
-  variable: "--font-heading",
+  variable: "--font-outfit",
   subsets: ["latin"],
   display: "swap",
 });
